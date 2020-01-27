@@ -6,20 +6,23 @@ class Skills extends React.Component {
 
   skills = ["ReactJS", "NodeJS", "firebase"]
   renderSkill = this.skills.map(function (skill) {
-    return <li><h4>{`  =>${skill}`}</h4></li>;
+    return (
+      <ul>
+        <li>
+          {skill}
+        </li>
+      </ul>
+    )
   })
 
   render() {
     return (
       <div>
-        <h1>Skills</h1>
-        <h2>{this.renderSkill}</h2>
+        <h4>Skills</h4>
+        <p>{this.renderSkill}</p>
       </div>
     )
   }
-
-
-
 }
 
 
