@@ -1,12 +1,12 @@
 import React from 'react'
 
 //file imports
-import Header from './Header'
+import Name from './Name'
 import Skills from './Skills'
 import SocialMediaLinks from './SocialMediaLinks'
 import Certifications from './Certificatons'
 
-export default class Home extends React.Component {
+export default class Sidebar extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -14,10 +14,10 @@ export default class Home extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <SocialMediaLinks />
+        <Name />
         <Skills />
-        <Certifications />
+        <SocialMediaLinks />
+        {/* <Certifications /> */}
       </div>
     )
   }

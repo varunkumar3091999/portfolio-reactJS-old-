@@ -4,13 +4,13 @@ import logo from './logo.svg';
 // import './App.css';
 
 //file imports
-import Home from './components/Home'
+import Sidebar from './components/Sidebar'
 
 export default class App extends React.Component {
 
   render() {
     return (
-      <Home />
+      <Sidebar />
     )
   }
 }

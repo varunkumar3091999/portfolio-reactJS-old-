@@ -19,6 +19,14 @@ const SocialMediaLinks = () => {
             LinkedIn
           </a>
         </li>
+        <li>
+          <a
+            href="https://github.com/varunkumar3091999"
+            target="_blank"
+          >
+            git
+            </a>
+        </li>
       </ul>
     </div>
   )
