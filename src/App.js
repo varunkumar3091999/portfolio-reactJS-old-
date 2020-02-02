@@ -1,16 +1,44 @@
 import React from 'react';
-import ReactDom from 'react-dom'
-import logo from './logo.svg';
+import { Router, Route, Switch, BrowserRouter } from 'react-router-dom'
+
 // import './App.css';
 
 //file imports
-import Sidebar from './components/Sidebar'
+import Home from './containers/Home'
+import About from './containers/About'
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      loading: true
+    }
+  }
+
+  componentDidMount = () => {
+    this.setState({
+      loading: false
+    })
+  }
 
   render() {
+
+    if (this.state.loading) {
+
+      return <div>
+        <p>Loading...</p>
+      </div>
+    }
+
     return (
-      <Sidebar />
+      <div>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+          </Switch>
+        </BrowserRouter>
+      </div>
     )
   }
 }
