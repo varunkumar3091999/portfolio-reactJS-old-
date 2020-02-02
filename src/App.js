@@ -6,6 +6,7 @@ import { Router, Route, Switch, BrowserRouter } from 'react-router-dom'
 //file imports
 import Home from './containers/Home'
 import About from './containers/About'
+import app from '../src/App.css'
 
 export default class App extends React.Component {
   constructor(props) {
@@ -31,7 +32,7 @@ export default class App extends React.Component {
     }
 
     return (
-      <div>
+      <div className='app' >
         <BrowserRouter>
           <Switch>
             <Route exact path='/' component={Home} />

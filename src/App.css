@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  /* background-color: steelblue; */
+  /* background-image:url('../src/images/bg2.jpeg') ; */
+  padding-top: 2%;
+  padding-bottom: 15.5%;
+  text-align: center;
+  text-shadow: black;
+}
+
+.socialMediaLinks {
+  position: relative;
+  text-align: center;
+
+}
+
+.links {
+  margin-left: 1%;
+  margin-right: 1%;
+}
