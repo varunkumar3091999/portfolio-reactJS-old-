@@ -29,12 +29,21 @@ export default class Home extends React.Component {
 
     return (
       <div>
-        <div>
-          <Name />
-        </div>
+        <Name />
+
         <Skills />
         {/* <Certifications /> */}
         <SocialMediaLinks />
+        <div>
+          <p>for more details, Click__
+            <a
+              className="about"
+              href="/about">
+              {/* <img className="infoImage" src={require("../images/.png")} /> */}
+              Here
+      </a> </p>
+
+        </div>
       </div>
     )
   }

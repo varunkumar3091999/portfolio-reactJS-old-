@@ -48,7 +48,8 @@
   text-shadow: black;
   text-justify: inherit;
   font-style: oblique;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 500;
   color: whitesmoke;
 }
 
@@ -69,6 +70,11 @@
   border-radius: 50%;
 }
 
-.infoImage {
-  margin-left: 200px;
+.about {
+  color: whitesmoke;
 }
+
+.link {
+  color: whitesmoke;
+}
+
