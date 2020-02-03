@@ -39,20 +39,36 @@
 
 .app {
   /* background-color: steelblue; */
-  /* background-image:url('../src/images/bg2.jpeg') ; */
-  padding-top: 2%;
+  background-image:url('../src/images/backG.jpg') ;
+  background-size: cover;
+  padding-top: 10%;
   padding-bottom: 15.5%;
+  /* padding-inline: 50pxx; */
   text-align: center;
   text-shadow: black;
+  text-justify: inherit;
+  font-style: oblique;
+  font-size: 15px;
+  color: whitesmoke;
 }
+
 
 .socialMediaLinks {
   position: relative;
   text-align: center;
-
 }
 
 .links {
   margin-left: 1%;
   margin-right: 1%;
+
+}
+
+.image{
+  height: 50px;
+  border-radius: 50%;
+}
+
+.infoImage {
+  margin-left: 200px;
 }

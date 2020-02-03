@@ -2,7 +2,15 @@ import React from 'react'
 
 const Name = (props) => (
   <div>
-    <h2>{props.name}</h2>
+    <h2>
+      {props.name}
+      <a
+        className="about"
+        href="/about">
+        {/* <img className="infoImage" src={require("../images/info.png")} /> */}
+        about
+      </a>
+    </h2>
     <p>{props.email}</p>
     <p>{props.dev}</p>
   </div>

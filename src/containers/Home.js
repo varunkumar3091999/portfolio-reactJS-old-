@@ -29,9 +29,11 @@ export default class Home extends React.Component {
 
     return (
       <div>
-        <Name />
+        <div>
+          <Name />
+        </div>
         <Skills />
-        <Certifications />
+        {/* <Certifications /> */}
         <SocialMediaLinks />
       </div>
     )
