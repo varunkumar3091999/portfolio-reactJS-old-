@@ -24,7 +24,7 @@ export default class About extends React.Component {
     return (
       <div className="about">
         <h2>About me</h2>
-        <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+        {/* <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p> */}
         <img src={require("../images/avatar2.jpeg")} />
         <p>
           My name is Varun Kumar Saravanan. I am a front End Web Developer.
@@ -88,7 +88,7 @@ export default class About extends React.Component {
           <li>
             Portfolio:  Developed my own portfolio , which you are looking at right now!!   (Reactjs, HTML, css)    </li>
         </ul>
-        <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+        {/* <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p> */}
 
         <h3>"The ability to learn is the true form of intelligence"</h3>
       </div>
