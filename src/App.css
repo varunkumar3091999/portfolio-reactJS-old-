@@ -39,10 +39,10 @@
 
 .app {
   /* background-color: steelblue; */
-  background-image:url('../src/images/backG.jpg') ;
+  background-image:url('../src/images/newbg.jpeg') ;
   background-size: cover;
   padding-top: 10%;
-  padding-bottom: 15.5%;
+  padding-bottom: 20%;
   /* padding-inline: 50pxx; */
   text-align: center;
   text-shadow: black;
