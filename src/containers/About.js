@@ -90,7 +90,7 @@ export default class About extends React.Component {
         </ul>
         <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
 
-        <h5>"The ability to learn is the true form of intelligence"</h5>
+        <h3>"The ability to learn is the true form of intelligence"</h3>
       </div>
     )
   }
