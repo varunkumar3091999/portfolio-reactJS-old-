@@ -85,8 +85,6 @@ export default class About extends React.Component {
               (Intern Certificate).
             </a>
           </li>
-          <li>
-            Portfolio:  Developed my own portfolio , which you are looking at right now!!   (Reactjs, HTML, css)    </li>
         </ul>
         {/* <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p> */}
 
