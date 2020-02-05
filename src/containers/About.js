@@ -77,7 +77,7 @@ export default class About extends React.Component {
               className="link">
               North App
               </a>
-            :   (Part of the Development Team as an Intern) Project status and update tool
+            (Part of the Development Team as an Intern):   Project status and update tool
             <a
               href="https://drive.google.com/open?id=1LkHxGCm1ye9UON_Um0fXFlz9rt1sikn2"
               target="blank"
