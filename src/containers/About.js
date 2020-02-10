@@ -61,7 +61,7 @@ export default class About extends React.Component {
               className="link">
               Weather app
             </a>
-            :    A Web application used to forecase weather of any location (nodeJs,HTML,css).
+            :    A Web application used to forecast weather of any location (NodeJs,HTML,css).
           </li>
           <li>
             <a href="https://mychatterbox-varun.herokuapp.com/"
@@ -69,7 +69,7 @@ export default class About extends React.Component {
               className="link">
               Chat app
             </a>
-            :    A Real Time Chat-application on the web built using NodeJs, socket.io, HTML, css.
+            :    A Real Time Chat-application on the web built using NodeJs, Socket.io, HTML, css.
           </li>
           <li>
             <a href="https://northapp.co/"
@@ -89,6 +89,7 @@ export default class About extends React.Component {
         {/* <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p> */}
 
         <h3>"The ability to learn is the true form of intelligence"</h3>
+        <p><a href='/' className='about'>Back</a></p>
       </div>
     )
   }
