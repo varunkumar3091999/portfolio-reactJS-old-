@@ -23,12 +23,12 @@ const SocialMediaLinks = () => {
       >
         <img className="image" src={require("../images/git4.png")} />
       </a>
-      <a className="links"
+      {/* <a className="links"
         href="https://mail.google.com/mail/u/2/#search/varunkumar0930%40gmail.com?compose=new"
         target="_blank"
       >
         <img className="image" src={require("../images/gmail2.png")} />
-      </a>
+      </a> */}
     </div>
   )
 }
