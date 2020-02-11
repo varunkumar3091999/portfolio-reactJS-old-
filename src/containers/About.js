@@ -27,7 +27,7 @@ export default class About extends React.Component {
         {/* <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p> */}
         <img src={require("../images/avatar2.jpeg")} />
         <p>
-          My name is Varun Kumar Saravanan. I am a front End Web Developer.
+          My name is Varun Kumar Saravanan. I am a Front End Web Developer.
         </p>
         <h3>Technical skills (in detail)</h3>
         <li>
